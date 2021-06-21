@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 50px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hr {
+  height: 1px;
+  background-color: #ddd;
+}
+
+#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+#main-header img {
+  width: 48px;
+  border-radius: 50px;
+}
+
+#main-header nav a {
+  color: #000;
+}
+
+#main-header nav a {
+  color: #333;
+}
+
+#main-header nav a.btn-register {
+  border: 1px solid #eee;
+  padding: 8px 12px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #eee;
+  margin-left: 10px;
+  color: #000;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 280px;
+  text-align: center;
+}
+
+.container h1 {
+  font-weight: 400;
+}
+
+.container .btn-openId {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  color: #fff;
+  background-color: #1266D6;
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.signin-email {
+  position: relative;
+  margin: 30px 0;
+}
+
+.signin-email span {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 8px;
+  padding: 0 8px;
+  background-color: white;
+  color: #333;
+  font-size: 13px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group label a {
+  font-size: 12px;
+}
+
+.form-group input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1.5px solid #ddd;
+  outline: none;
+  font-weight: 300;
+  color: #333;
+}
+
+.form-group input:focus {
+  border-color: #1266D6;
+  box-shadow: 0 0 3px rgba(36, 113, 212, 0.5);
+}
+
+form .btn-signin {
+  background-color: #0EAF51;
+  color: #fff;
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
